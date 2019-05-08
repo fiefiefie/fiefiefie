@@ -1,0 +1,242 @@
+/*button style*/
+
+.musicBtnCont
+{
+	font-size:150%;
+	margin:5px;
+	padding: 20px 0 20px 0;
+}
+
+.musicBtnCont a
+{
+	padding: 5px 10px;
+	border: solid 2px;
+}
+
+.musicBtnCont a
+{
+	color: #eaeaea;
+}
+
+.musicBtnCont a:hover{
+	color: #fff;
+}
+
+
+div.albumimg 
+{
+	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.9);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	z-index: 100;
+}
+
+
+#abmusic
+{	
+	overflow:auto;
+	padding:5px 0 0 0;
+}
+
+#musicCont
+{
+	width:85%;
+	margin:0 auto 50px auto;
+	padding:2%;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.4);
+	
+}
+
+.abAlbum 
+{
+
+display:inline-block;
+overflow: hidden;
+vertical-align: middle;
+padding:1%;
+width:23%;
+
+	   -moz-transition: all 0.5s;
+		 -o-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+			transition: all 0.5s;
+
+}
+
+.abAlbum img
+{
+	height:auto;
+	width:100%;
+	display:block;
+	
+		   -moz-transition: all 0.5s;
+		 -o-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+			transition: all 0.5s;
+	
+}
+
+.hovertext
+{
+	font-size: 2vw;
+}
+
+.hovertext:hover img{ opacity: 0.1; }
+
+.hovertext:hover div{ opacity: 1; }
+
+.hovertext div
+{
+	position:relative;
+	margin:-70% 0 70% 0;
+	height: 0;
+	opacity: 0;
+}
+
+.hovertext div  span
+{
+	font-size: 1vw;
+}
+
+.abalbumlink
+{
+	text-align:center;
+	overflow:hidden;
+	display:block;
+}
+
+.abalbumlink :hover
+{
+	color:#000;
+}
+
+.fullinfo{
+	width:75%;
+	max-height:90%;
+	margin:2% auto 0 auto;
+	overflow-y:auto;
+	text-align:center;
+}
+
+.albuminner img
+{
+	width:40%;
+	max-width:500px;
+	display:inline-block;
+	padding:5%;
+}
+
+.albuminner
+{
+	background-color:#000;
+	min-height:60vh;
+}
+
+.textfs
+{
+	display:inline-block;
+	color:#fff;
+	height:100%;
+	font-size:200%;
+	text-align:left;
+	vertical-align:top;
+	width:40%;
+	padding:5%;
+}
+
+.date1
+{
+	font-size:50%;
+}
+
+.tracklist
+{
+	font-size:75%;
+}
+
+.ablinks
+{
+	width:100%;
+	max-width:150px;
+	display:inline-block;
+	padding:1%;
+}
+
+.ablinks img
+{
+	width:80%;
+	max-width:150px;
+}
+
+.linkcont
+{
+	max-width:500px;
+}
+
+.albumtitle1
+{	
+	display:block;
+}
+	
+.albumtitle2
+{	
+	display:none;
+	font-size:200%;
+	color:#fff;
+	padding-top:5%;
+}
+
+@media screen and (max-width :1080px)
+{
+	.albuminner img
+	{
+		width:90%;
+		max-width:350px;
+		padding:0;
+	}
+	
+	.textfs
+	{
+		width:90%;
+	}
+	
+	.albumtitle2
+	{	
+		display:block;
+	}
+	
+	.albumtitle1
+	{	
+		display:none;
+	}
+}
+
+@media screen and (max-width :1024px)
+{
+
+
+	.abAlbum
+	{
+		padding:1%;
+		width:48%;
+	}
+	.hovertext
+	{
+	font-size: 4vw;
+	}
+	.hovertext div  span
+	{
+	font-size: 3vw;
+	}
+	.tracklist
+	{
+	font-size:50%;
+	}
+
+}

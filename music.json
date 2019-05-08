@@ -1,0 +1,117 @@
+{
+   "data": [
+	  {
+      	 "image": "images/covers/NLFL.jpg",
+         "name": "No Light For Lies",
+         "date": "August 8, 2018",
+         "col": "#fff",
+         "bclink": "https://fie-fie-fie.bandcamp.com/album/no-light-for-lies",
+         "splink": "https://open.spotify.com/album/2LFPtHfxZ4SWgzj1ca5GQ6",
+         "itlink": "https://itunes.apple.com/gb/album/no-light-for-lies/1415497171",
+         "gplink": "https://play.google.com/music/preview/Batbmanqzgaw77eld33hw3h3kfe?u=0#",
+         "sclink": "",
+         "rvlink": "",
+         "tracks": [
+         	{
+         		"tname": "Intro Venus"
+         	},
+			{
+         		"tname": "Edge of Space"
+         	},
+			{
+         		"tname": "Hit the Spanish Main"
+         	},
+			{
+         		"tname": "Everything I Told You"
+         	},
+			{
+         		"tname": "Famous Liars"
+         	},
+			{
+         		"tname": "From the Wreck"
+         	},
+			{
+         		"tname": "Bullet Points for the Bulletproof"
+         	},
+			{
+         		"tname": "Bloody Lane"
+         	},
+			{
+         		"tname": "Bleeding Obvious"
+         	},
+			{
+         		"tname": "Outrospective"
+         	}		
+         ]
+      },
+	  {
+      	 "image": "images/covers/FL.jpg",
+         "name": "Famous Liars",
+         "date": "June 14, 2018",
+         "col": "#EE4808",
+         "bclink": "http://fie-fie-fie.bandcamp.com/album/famous-liars",
+         "splink": "https://open.spotify.com/album/4Qq4tqXbeQolronU7AjVy7",
+         "itlink": "https://itunes.apple.com/gb/album/famous-liars-single/1400815736",
+         "gplink": "https://play.google.com/music/preview/Bfl6geo4vmke6tg4e6e64ejst4i?u=0#",
+         "sclink": "",
+         "rvlink": "",
+         "tracks": [
+         	{
+         		"tname": "Famous Liars"
+         	}
+         ]
+      },
+	  {
+      	 "image": "images/covers/EOSEITY.jpg",
+         "name": "Edge of Space​ /​ Everything I Told You",
+         "date": "August 4, 2017",
+         "col": "#FEEED4",
+         "bclink": "http://fie-fie-fie.bandcamp.com/album/edge-of-space-everything-i-told-you",
+         "splink": "https://open.spotify.com/album/3YEVSCKAhxuRmnY9ln8Y0f",
+         "itlink": "https://itunes.apple.com/gb/album/edge-of-space-everything-i-told-you-single/id1266654719",
+         "gplink": "https://play.google.com/music/preview/Bqfcyfpxqsaiyx3a5fj5awl736m?t=Edge_of_SpaceEverything_I_Told_You&u=0",
+         "sclink": "https://soundcloud.com/fie-fie-fie/edge-of-space",
+         "rvlink": "https://www.reverbnation.com/3566192/album/172569",
+         "tracks": [
+         	{
+         		"tname": "Edge of Space​"
+         	},
+         	{
+         		"tname": "Everything I Told You"
+         	}
+         ]
+      },
+      {
+      	 "image": "images/covers/LASM.jpg",
+         "name": "Live At St Mary's",
+         "date": "November 7, 2016",
+         "col": "#ff9900",
+         "bclink": "http://fie-fie-fie.bandcamp.com/album/live-at-st-marys",
+         "splink": "",
+         "itlink": "",
+         "gplink": "",
+         "sclink": "",
+         "rvlink": "",
+         "tracks": [
+         	{
+         		"tname": "North Landing Bay"
+         	},
+         	{
+         		"tname": "Papillon"
+         	},
+			{
+				"tname": "Who Said Judas Was A Man?"
+			},
+			{
+				"tname": "Classes"
+			},
+			{
+				"tname": "Time and Place"
+			},
+			{
+				"tname": "Café Fiasco"
+			}
+         ]
+      }
+   ]
+}

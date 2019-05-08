@@ -1,0 +1,176 @@
+/*button style*/
+
+.photoBtnCont
+{
+	font-size:150%;
+	margin:5px;
+	padding: 20px 0 20px 0;
+}
+
+.photoBtnCont a
+{
+	padding: 5px 10px;
+	border: solid 2px;
+}
+
+.photoBtnCont a
+{
+	color: #eaeaea;
+}
+
+.photoBtnCont a:hover{
+	color: #fff;
+}
+
+/*gallery*/
+
+.closeImg
+{
+	font-size:150%;
+	color:#fff;
+	position:fixed;
+	right:0;
+	padding:0 5px 5px 5px;
+	opacity: 0.5;
+}
+
+.closeImg:hover
+{
+	opacity: 1;
+}
+
+
+.leftImg
+{
+	font-size:150%;
+	color:#fff;
+	position:fixed;
+	left:0;
+	height: 100vh;
+	line-height: 100vh;
+	padding:0 5px 5px 5px;
+	background:#000;
+	background:rgba(0,0,0,0.4);
+	opacity: 0.5;
+}
+
+.leftImg:hover
+{
+	opacity: 1;
+}
+
+.rightImg
+{
+	font-size:150%;
+	color:#fff;
+	position:fixed;
+	right:0;
+	height: 100vh;
+	line-height: 100vh;
+	padding:0 5px 5px 5px;
+	background:#000;
+	background:rgba(0,0,0,0.4);
+	opacity: 0.5;
+}
+
+.rightImg:hover
+{
+	opacity: 1;
+}
+
+
+
+div.fsimg 
+{
+	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.9);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	z-index: 100;
+}
+
+.fsinner
+{
+  display:none;
+}
+
+
+#abig
+{	
+	overflow:auto;
+	padding:5px 0 0 0;
+}
+
+#photoCont
+{
+	width:85%;
+	margin:0 auto 50px auto;
+	padding:2%;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.2);
+	
+}
+
+#photoInnerCont
+{
+	/*used for the js resize*/
+}
+
+#abPhotoGal 
+{
+
+	  
+	  
+}
+
+
+.abPhoto 
+{
+
+display:inline-block;
+overflow: hidden;
+vertical-align: middle;
+padding:1%;
+width:23%;
+}
+
+.abPhoto img
+{
+	height:auto;
+	width:100%;
+}
+
+.abphotolink
+{
+	text-align:center;
+	overflow:hidden;
+	display:block
+}
+
+@media screen and (max-width :1024px)
+{
+
+	#photoCont
+	{
+		width:90%;
+	}
+
+	.abPhoto 
+	{
+		padding:1%;
+		width:31.3333%;
+	}
+}
+
+@media screen and (max-width :750px)
+{
+	.abPhoto 
+	{
+		padding:1%;
+		width:48%;
+	}
+}
